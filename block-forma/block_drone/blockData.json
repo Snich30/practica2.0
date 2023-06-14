@@ -1,0 +1,29 @@
+{
+    "BLOCK_container":{
+        "type":"text",
+        "GPT": "Информация",
+        "includes":{
+            "icon":{
+                "type": "text",
+                "max-length": 100,
+                "GPT": "Заголовок"
+            },
+            "paragraph": {
+                "type": "text",
+                "GPT": "Подзаголовок",
+                "max-length": 16
+            },
+            "photo":{
+                "type": "link",
+                "alt": "",
+                "title": "",
+                "GPT": "Ссылка"
+            },
+            "Text-img":{
+                "type": "text",
+                "GPT": "Текст под картинкой",
+                "max-length": 16
+            }
+        }
+    }    
+}

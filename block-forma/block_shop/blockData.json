@@ -1,0 +1,40 @@
+{
+    "BLOCK_heading":{
+        "type":"text",
+        "GPT": "Информация",
+        "includes":{
+            "name":{
+                "type": "text",
+                "max-length": 100,
+                "GPT": "Текст"
+            },
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "Info": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "Text-button":{
+                "type": "text",
+                "GPT": "Текст кнопки",
+                "max-length": 16
+            },
+            "photo":{
+                "type": "link",
+                "alt": "",
+                "title": "",
+                "GPT": "Ссылка"
+            },
+            "photo1":{
+                "type": "link",
+                "alt": "",
+                "title": "",
+                "GPT": "Ссылка"
+            }
+        }
+    }    
+}

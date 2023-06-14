@@ -1,0 +1,34 @@
+{
+    "BLOCK_card": {
+        "type": "block",
+        "GPT": "Информация",
+        "includes": {
+            "image:": {
+                "type": "image",
+                "alt": "Image",
+                "title": "Image",
+                "GPT": "Картинка"
+            },    
+            "header": {
+                "type": "text",
+                "GPT": "Заголовок",
+                "max-length": 16
+            },
+            "subtitle": {
+                "type": "text",
+                "GPT": "Подзаголовок",
+                "max-length": 16
+            },
+            "paragraph": {
+                "type": "text",
+                "GPT": "Параграф",
+                "max-length": 256
+            },
+            "Text-link": {
+                "type": "text",
+                "GPT": "текс-ссылка",
+                "max-length": 16
+            }
+        }
+    }
+}
